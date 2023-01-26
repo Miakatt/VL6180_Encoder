@@ -1,5 +1,7 @@
 # VL6180_Encoder
 Reading a VL6180X Lidar range finder, triggered with a 600p/r bi-directional encoder using an ESP8266 D1 Mini.   
+Distance counter is reset when the python code running on the laptop is started. 
+Change the COM port in read_range.py (look at Device Manager ports section).   
 
 D1 Mini Pin Connections. 
 VL6160 SCL --> D1 Mini Pin D1   
